@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Home route
 @app.route('/')
 def home():
-    return jsonify({'message': 'Welcome to my Flask App!'})
+    return jsonify({'message': 'Welcome...!'})
 
 # Simple API route
 @app.route('/api/data', methods=['GET'])
